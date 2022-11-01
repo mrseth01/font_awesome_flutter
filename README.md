@@ -4,7 +4,7 @@
 
 [![Pub](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dartlang.org/packages/font_awesome_flutter)
 
-The *free* [Font Awesome](https://fontawesome.com/icons) Icon pack available as set of Flutter Icons - based on font awesome version 6.1.1.
+The *free* [Font Awesome](https://fontawesome.com/icons) Icon pack available as set of Flutter Icons - based on font awesome version 6.2.0.
 
 This icon pack includes only the *free* icons offered by Font Awesome out-of-the-box.
 If you have purchased the pro icons and want to enable support for them, please see the instructions below.
@@ -40,12 +40,12 @@ Icon names equal those on the [official website](https://fontawesome.com/icons),
 Due to restrictions in dart, icons starting with numbers have those numbers written out.
 
 #### Examples:
-Icon name | Code | Style
---- | --- | ---
-[angle-double-up](https://fontawesome.com/icons/angle-double-up?style=solid) | `FontAwesomeIcons.angleDoubleUp` | solid _(this icon does not have other free styles)_
-[arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=regular) | `FontAwesomeIcons.arrowAltCircleUp` | regular
-[arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=solid) |  `FontAwesomeIcons.solidArrowAltCircleUp` | solid
-[1](https://fontawesome.com/icons/1?style=solid) | `FontAwesomeIcons.solidOne` | solid
+| Icon name                                                                             | Code | Style|
+|---------------------------------------------------------------------------------------| --- | ---|
+| [angle-double-up](https://fontawesome.com/icons/angle-double-up?style=solid)          | `FontAwesomeIcons.angleDoubleUp` | solid _(this icon does not have other free styles)_ |
+| [arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=regular) | `FontAwesomeIcons.arrowAltCircleUp` | regular |
+| [arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=solid)  |  `FontAwesomeIcons.solidArrowAltCircleUp` | solid |
+| [1](https://fontawesome.com/icons/1?style=solid)                                      | `FontAwesomeIcons.solidOne` | solid |
 
 ## Example App
 
@@ -76,7 +76,7 @@ dependencies:
   
 dependency_overrides:
   font_awesome_flutter:
-    path: /path/to/your/font_awesome_flutter
+    path: path/to/your/font_awesome_flutter
   ...
 ```
 
@@ -88,7 +88,7 @@ a public github repository or other public file sharing services.
 * Go to the location of your custom font_awesome_flutter version (see [setup](#setup))
 * Download the web version of font awesome pro and open it
 * Move **all** `.ttf` files from the `webfonts` directory and `icons.json` from `metadata` to
-  `/path/to/your/font_awesome_flutter/lib/fonts`. Replace existing files.
+  `path/to/your/font_awesome_flutter/lib/fonts`. Replace existing files.
 * Run the configurator. It should say "Custom icons.json found"
 
 It may be required to run `flutter clean` in apps who use this version for changes to appear.
